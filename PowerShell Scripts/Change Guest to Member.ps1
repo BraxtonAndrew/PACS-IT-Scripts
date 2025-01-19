@@ -8,6 +8,11 @@ Connect-MgGraph -Scopes "User.ReadWrite.All"
 # Click on the user and go to the overview tab
 # Copy their UserID (Located next to their UPN/Email Address)
 
+# Prompt user for UserID
+$userId = Read-Host "Enter the UserID for the user you want to update"
 # Update the user account
-Update-MgUser -UserType "Member"
-# Paste in the UserID in the terminal when it asks for it
+Update-MgUser -UserId $userId -UserType "Member"
+
+# Confirm the update
+Get-MgUser -UserId $userId | Select-Object UserPrincipalName, UserType
+
