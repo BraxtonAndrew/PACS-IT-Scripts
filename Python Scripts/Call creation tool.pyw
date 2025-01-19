@@ -6,11 +6,11 @@ from tkinter import messagebox
 
 # credentials
 domain = 'https://pacs.freshservice.com'
-api_key = 'X4q1HQbdExmA6XMksW8'  #################### CHANGE TO YOUR API KEY #####################
+api_key = 'REPLACE-ME'  #################### CHANGE TO YOUR API KEY #####################
 password = 'x'
 
 responder_ID = 21002928979
-group_ID = 21000562405
+group_ID = REPLACEME #################### CHANGE TO YOUR GROUP ID (Listed in the README) #####################
 
 # Create ticket
 def create_ticket():
