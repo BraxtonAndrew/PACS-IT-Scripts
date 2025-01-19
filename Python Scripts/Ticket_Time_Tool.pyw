@@ -5,7 +5,7 @@ import requests
 import json
 
 domain = 'https://pacs.freshservice.com'
-api_key = 'X4q1HQbdExmA6XMksW8'  #################### CHANGE TO YOUR API KEY #####################
+api_key = 'REPLACEME'  #################### CHANGE TO YOUR API KEY (Instructions in README) #####################
 password = 'x'
 
 
@@ -43,7 +43,7 @@ def create_time_entry():
             data = json.dumps({
                 'time_entry': {
                     'time_spent': time_spent,
-                    'agent_id': 21002928979,  ########## Change to your responder ID #############
+                    'agent_id': REPLACEME,  ################ Change to your responder ID (Ask Logan or Parker) ####################
                     'billable': True,
                     'note': note,
                 }
@@ -105,7 +105,7 @@ def start_timer():
             data = json.dumps({
                 'time_entry': {
                     'timer_running': 'true',
-                    'agent_id': 21002928979,  #################### CHANGE TO YOUR RESPONDER ID #####################
+                    'agent_id': REPLACEME,  ################ Change to your responder ID (Ask Logan or Parker) ####################
                     'billable': True,
                     'note': note,
                 }
