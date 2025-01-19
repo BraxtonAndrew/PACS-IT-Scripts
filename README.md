@@ -1,26 +1,34 @@
 # Welcome to the PACS IT Scripts Repository!
 
-This is a collaborative space for sharing scripts created by team members to streamline and enhance our workflows. Here, you can find tools that make our processes more efficient, contribute improvements, and collaborate with your colleagues.
+## Disclaimer
+
+**Please review this README and carefully read each script before execution.** While I’ve included detailed instructions to ensure a smooth experience, a basic understanding of coding is recommended for optimal use. If you encounter any issues or have questions, feel free to reach out for assistance.
+
+These scripts are provided **"as-is"** and may require modifications to suit specific use cases. Please test scripts thoroughly before deploying them in production environments. Your feedback and contributions are invaluable—thank you for supporting this collaborative effort!
+
+---
+
+## About This Repository
+
+This repository serves as a shared space for team members to contribute, access, and enhance scripts that streamline our workflows. By centralizing these tools, we aim to improve efficiency, foster collaboration, and leverage innovative solutions across the team.
 
 ### Purpose
 
-This repository aims to:
+The repository is designed to:
 
-- Provide a centralized location for managing and accessing useful scripts.
-- Facilitate collaboration and encourage continuous improvement of our tools.
-- Share innovative solutions with the team.
+- Provide a single location for managing and accessing useful scripts.
+- Encourage collaboration and continuous improvement of our tools.
+- Share innovative solutions that improve productivity and effectiveness.
 
-### Contributing
+---
 
-We encourage contributions from all team members! If you have suggestions, encounter bugs, or want to share new scripts, please:
+## Contributing
 
-1. Open an issue in this repository.
-2. Submit a pull request with your suggested changes.
-3. Reach out directly with feedback or ideas.
+We welcome contributions from all team members! If you'd like to share a new script, suggest improvements, or report bugs, please follow these steps:
 
-### Disclaimer
-
-These scripts are provided "as-is" and may need adjustments to suit specific use cases. Please use them responsibly and thoroughly test any scripts before deploying them in production environments. Thank you for your contributions and support!
+1. **Open an issue** in this repository to describe the bug, feature request, or suggestion.
+2. **Submit a pull request** with your changes or additions.
+3. Reach out directly to the repository maintainer with feedback or ideas.
 
 ---
 
@@ -28,24 +36,31 @@ These scripts are provided "as-is" and may need adjustments to suit specific use
 
 ### PowerShell Requirements
 
-1. PowerShell is built into Windows. It is recommended to run PowerShell through VSCode as an administrator, as most scripts require admin privileges.
-2. Some scripts may prompt you to sign into your Cloud Admin account, displaying a pop-up window for authentication
+1. **Built-in PowerShell**: PowerShell comes pre-installed on Windows. For the best experience, run PowerShell scripts via **VSCode** with administrator privileges, as most scripts require elevated permissions.
+2. **Cloud Admin Authentication**: Certain scripts may prompt you to sign in to your Cloud Admin account. A pop-up window will appear for authentication.
 
 ### Python Requirements
 
-1. Ensure Python is installed on your system to run Python scripts.
-2. Some Python scripts require your Freshservice API Key and Group ID (Listed Below):
-    - **To retrieve your Freshservice API Key:**
+1. **Install Python**: Ensure Python is installed on your system to execute Python scripts.
+2. **Freshservice API Key & Group ID**: Some scripts require your Freshservice API Key and Group ID. Follow these steps to retrieve them:
+    - **Retrieve Freshservice API Key**:
         
-        1. Open Freshservice and click your profile icon in the top-right corner.
-        2. Select "Profile Settings."
-        3. Complete the CAPTCHA on the far-right side of the profile settings page.
-        4. Your API Key will be displayed after verification.
+        1. Log in to Freshservice and click your profile icon (top-right corner).
+        2. Navigate to **Profile Settings**.
+        3. Complete the CAPTCHA on the right-hand side.
+        4. Copy your API Key once it appears.
         
-        **Note:** Do not share your API Key with anyone.
-3. All of the python scripts run as .pyw files meaning they are executable and don't need to run from an IDE (VSCode) and can be run simply by double clicking on them after updating the required information and saving
+        > **Important:** Do not share your API Key with anyone.
+        
+3. **Python Script Execution**: All Python scripts in this repository are configured as `.pyw` files. These can be executed directly by double-clicking them (no need to open an IDE like VSCode). Ensure all required information is updated and saved before running.
 
-|Group Name|Group ID|
+---
+
+### Group IDs
+
+Some scripts require Group IDs for specific operations. Use the table below for reference:
+
+|**Group Name**|**Group ID**|
 |---|---|
 |PACS Services|21000561468|
 |San Diego + Nevada|21000562401|
