@@ -9,7 +9,7 @@ domain = 'https://pacs.freshservice.com'
 api_key = 'REPLACE-ME'  #################### CHANGE TO YOUR API KEY #####################
 password = 'x'
 
-responder_ID = 21002928979
+responder_ID = REPLACEME #################### CHANGE TO YOUR RESPONDER ID (Ask Logan or Parker) #####################
 group_ID = REPLACEME #################### CHANGE TO YOUR GROUP ID (Listed in the README) #####################
 
 # Create ticket
