@@ -19,18 +19,18 @@ These scripts are provided as-is and may require adaptation to fit specific use 
 Thank you for your contributions and support!
 
 
-Group	Group ID #
-PACS Services	21000561468
-San Diego + Neveda	21000562401
-South Coast + Central	21000562402
-Empire + Arizona	21000562407
-Frontier + Tristar Regions	21000562403
-Palmetto + South Carolina	21000562404
-Peninsula + East Bay	21000562405
-North Bay + Mountain North	21000562406
-Colorado	21000562400
-Pacific Shores + Senior Living 1	21000564394
-Oregon + Senior Living 2	21000564526
-Bluegrass + Buckeye + Keystone	21000564526
-Catch All	21000560792
-![image](https://github.com/user-attachments/assets/52688df7-4b71-4201-8879-87f158a914e5)
+| Group Name                       | Group ID    |
+| -------------------------------- | ----------- |
+| PACS Services                    | 21000561468 |
+| San Diego + Neveda               | 21000562401 |
+| South Coast + Central            | 21000562402 |
+| Empire + Arizona                 | 21000562407 |
+| Frontier + Tristar Regions       | 21000562403 |
+| Palmetto + South Carolina        | 21000562404 |
+| Peninsula + East Bay             | 21000562405 |
+| North Bay + Mountain North       | 21000562406 |
+| Colorado                         | 21000562400 |
+| Pacific Shores + Senior Living 1 | 21000564394 |
+| Oregon + Senior Living 2         | 21000564526 |
+| Bluegrass + Buckeye + Keystone   | 21000564526 |
+| Catch All                        | 21000560792 |
