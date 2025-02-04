@@ -1,9 +1,22 @@
 import tkinter as tk
-import requests
+import subprocess
+import sys
+
+# Function to install the requests module if not already installed
+def install_requests():
+    try:
+        import requests
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
+        import requests
+    return requests
+
+# Install and import the requests module
+requests = install_requests()
 
 def generate_password():
     # Define the API endpoint
-    url = "https://password.ninja/api/password?minPassLength=12&instruments=true&colours=true&shapes=true&food=true&sports=true&transport=true&symbols=true&numOfPasswords=1&maxLength=12&excludeSymbols=sfha"
+    url = "https://password.ninja/api/password?minPassLength=12&instruments=true&colours=true&shapes=true&food=true&sports=true&transport=true&symbols=true&numOfPasswords=1&maxLength=14&excludeSymbols=sfha"
     
     # Make the GET request
     response = requests.get(url)
